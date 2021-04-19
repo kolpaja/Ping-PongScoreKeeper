@@ -1,0 +1,50 @@
+/* Styling Ping -Pong score keeper */
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#container {
+  position: absolute;
+  left: 35%;
+  margin-top: 6%;
+}
+h2,
+p {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+section {
+  border: 1px solid grey;
+}
+
+#score {
+  border: 1px solid grey;
+}
+
+#noGames {
+  border-radius: 45%;
+  padding-left: 10px;
+}
+
+#players {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#players > button {
+  flex: 1 1 auto;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+#p1 {
+  background-color: #06d6a0;
+}
+#p2 {
+  background-color: #118ab2;
+}
+#reset {
+  background-color: #ef476f;
+}
